@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- CSS Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <title>To-do List | Tasks</title>
+</head>
+<body>
+
+  <div class="container-fluid" >
+
+    <div class="row do_mainrow">
+      <div class="col-sm-2 do_sidenav">
+       <div class="">
+        
+        <div class="row">
+          <div class="col-sm-10 do_tittle">
+            <i class="fa-sharp fa-solid fa-circle-user"></i> &nbsp; Username
+          </div>
+          <div class="col-sm-2">
+            <i class="fa-sharp fa-solid fa-bars"></i>
+          </div>
+        </div>
+
+        <br> <br>
+
+        <div class="do_sidenav_search">
+          <div class="row">
+            <form >
+              <input type="text" name="" placeholder="Search" id="do_search" class="do_search">
+            </form>
+          </div>
+        </div>
+
+        <br><br>
+
+        <div class="do_sidenav_content">
+
+          <div class="row">
+              <a href="add-task.html" class="do_nav_title_active">
+                  <div class="col-sm-12">
+                      <i class="fa-sharp fa-solid fa-square-plus"></i> &nbsp; Tasks
+                  </div>
+              </a>
+          </div> 
+
+          <div class="row">
+              <a href="" class="do_nav_title">
+                  <div class="col-sm-12">
+                      <i class="fa-sharp fa-regular fa-calendar"></i> &nbsp; Today
+                  </div>
+              </a>
+          </div> 
+
+          <div class="row">
+              <a href="" class="do_nav_title">
+                  <div class="col-sm-12">
+                      <i class="fa-sharp fa-regular fa-calendar-days"></i> &nbsp; Comming tasks
+                  </div>
+              </a>
+          </div> 
+
+          <div class="row">
+              <a href="" class="do_nav_title">
+                  <div class="col-sm-12">
+                      <i class="fa-sharp fa-regular fa-calendar-check"></i> &nbsp; Appointment
+                  </div>
+              </a>
+          </div> 
+
+          
+          <div class="row">
+              <a href="sticky-wall.html" class="do_nav_title">
+                  <div class="col-sm-12">
+                      <i class="fa-sharp fa-regular fa-note-sticky"></i> &nbsp; Sticky wall
+                              
+                  </div>
+              </a>
+          </div> 
+          
+
+          <br>
+
+          <div class="row">
+              <div class="col-sm-12 do_tittle">
+              <i class="fa-sharp fa-solid fa-circle-user"></i> &nbsp; My Projects
+              </div>
+          </div>
+
+          <br>
+
+          <div class="row">
+              <a href="" class="do_nav_title">
+                  <div class="col-sm-12">
+                      <i class="fa-sharp fa-solid fa-thumbtack"></i> &nbsp; Shopping list
+                  </div>
+              </a>
+          </div> 
+
+          <div class="row">
+              <a href="" class="do_nav_title">
+                  <div class="col-sm-12">
+                      <i class="fa-sharp fa-solid fa-thumbtack"></i> &nbsp; Road map
+                  </div>
+              </a>
+          </div> 
+
+          <div class="row">
+              <a href="" class="do_nav_title">
+                  <div class="col-sm-12">
+                      <i class="fa-solid fa-thumbtack"></i> &nbsp; Task
+                  </div>
+              </a>
+          </div>
+
+          <div class="row">
+              <a href="" class="do_nav_title">
+                  <div class="col-sm-12">
+                      <i class="fa-sharp fa-solid fa-square-plus"></i> &nbsp; Add new project
+                  </div>
+              </a>
+          </div>
+
+          <br><br><br><br><br><br><br><br>
+
+          <div class="row">
+              <a href="" class="do_nav_title">
+                  <div class="col-sm-12">
+                      <i class="fa-sharp fa-solid fa-sliders"></i> &nbsp; Settings
+                  </div>
+              </a>
+          </div>
+
+          <div class="row">
+              <a href="" class="do_nav_title">
+                  <div class="col-sm-12">
+                      <i class="fa-sharp fa-solid fa-right-from-bracket"></i> &nbsp; Sign out
+                  </div>
+              </a>
+          </div>
+
+      </div>
+
+       </div>
+      </div>
+
+      <div class="col-sm-10">
+
+        <div class="row do_top_content">
+
+            <div class="col-sm-3">
+            </div>
+            <div class="col-sm-6"> <br>
+              <p class="do_tittle_main">To do list</p>
+            </div>
+            <div class="col-sm-3 do_seemore">
+              <i class="fa-sharp fa-solid fa-bell fa-1x"></i> &nbsp;
+              <i class="fa-sharp fa-solid fa-ellipsis-vertical fa-1x"></i>
+            </div>
+
+        </div>
+
+        <div class="row">
+          <div class="do_pgcontent_first">
+
+            <form action="">
+              <button type="button" class="do_add_button">
+                Add Task 
+                <i class="fa-sharp fa-solid fa-plus"></i>
+              </button>
+              <input type="text" name="" id="addtadk" class="do_search_content" placeholder="">
+            </form>
+  
+          </div>
+        </div>
+
+        <div class="row">
+          <p class="do_signature"> &copy;.DOSENA</p>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+        <!-- JavaScript script -->
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/fontawesome.min.js" integrity="sha512-NeFv3hB6XGV+0y96NVxoWIkhrs1eC3KXBJ9OJiTFktvbzJ/0Kk7Rmm9hJ2/c2wJjy6wG0a0lIgehHjCTDLRwWw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</body>
+</html>
